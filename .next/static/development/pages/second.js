@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/a.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/second.js"],{
 
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js":
 /*!**********************************************************************!*\
@@ -2099,21 +2099,21 @@ for (var i = 0; i < DOMIterables.length; i++) {
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fa&absolutePagePath=%2FUsers%2Fgiraffeman%2Fworkspace%2Fweb%20development%2Fnext-react-app%2Fpages%2Fa.js!./":
-/*!***************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fa&absolutePagePath=%2FUsers%2Fgiraffeman%2Fworkspace%2Fweb%20development%2Fnext-react-app%2Fpages%2Fa.js ***!
-  \***************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsecond&absolutePagePath=%2FUsers%2Fgiraffeman%2Fworkspace%2Fweb%20development%2Fnext-react-app%2Fpages%2Fsecond.js!./":
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsecond&absolutePagePath=%2FUsers%2Fgiraffeman%2Fworkspace%2Fweb%20development%2Fnext-react-app%2Fpages%2Fsecond.js ***!
+  \*************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/a", function() {
-      var mod = __webpack_require__(/*! ./pages/a.js */ "./pages/a.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/second", function() {
+      var mod = __webpack_require__(/*! ./pages/second.js */ "./pages/second.js")
       if(true) {
-        module.hot.accept(/*! ./pages/a.js */ "./pages/a.js", function() {
-          if(!next.router.components["/a"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/a.js */ "./pages/a.js")
-          next.router.update("/a", updatedPage)
+        module.hot.accept(/*! ./pages/second.js */ "./pages/second.js", function() {
+          if(!next.router.components["/second"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/second.js */ "./pages/second.js")
+          next.router.update("/second", updatedPage)
         })
       }
       return mod
@@ -2133,10 +2133,10 @@ module.exports = (__webpack_require__(/*! dll-reference dll_e9ad7d891b372a4221cf
 
 /***/ }),
 
-/***/ "./pages/a.js":
-/*!********************!*\
-  !*** ./pages/a.js ***!
-  \********************/
+/***/ "./pages/second.js":
+/*!*************************!*\
+  !*** ./pages/second.js ***!
+  \*************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2157,39 +2157,39 @@ __webpack_require__.r(__webpack_exports__);
 var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
 
 
-var APage =
+var Second =
 /*#__PURE__*/
 function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(APage, _React$Component);
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Second, _React$Component);
 
-  function APage() {
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, APage);
+  function Second(props) {
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Second);
 
-    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(APage).apply(this, arguments));
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Second).call(this, props));
   }
 
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(APage, [{
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Second, [{
     key: "render",
     value: function render() {
-      return __jsx("h1", null, "A Page");
+      return __jsx("h1", null, "Second Page");
     }
   }]);
 
-  return APage;
+  return Second;
 }(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
 
-/* harmony default export */ __webpack_exports__["default"] = (APage);
+/* harmony default export */ __webpack_exports__["default"] = (Second);
 
 /***/ }),
 
-/***/ 1:
-/*!*******************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fa&absolutePagePath=%2FUsers%2Fgiraffeman%2Fworkspace%2Fweb%20development%2Fnext-react-app%2Fpages%2Fa.js ***!
-  \*******************************************************************************************************************************************************/
+/***/ 3:
+/*!*****************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fsecond&absolutePagePath=%2FUsers%2Fgiraffeman%2Fworkspace%2Fweb%20development%2Fnext-react-app%2Fpages%2Fsecond.js ***!
+  \*****************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fa&absolutePagePath=%2FUsers%2Fgiraffeman%2Fworkspace%2Fweb%20development%2Fnext-react-app%2Fpages%2Fa.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fa&absolutePagePath=%2FUsers%2Fgiraffeman%2Fworkspace%2Fweb%20development%2Fnext-react-app%2Fpages%2Fa.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fsecond&absolutePagePath=%2FUsers%2Fgiraffeman%2Fworkspace%2Fweb%20development%2Fnext-react-app%2Fpages%2Fsecond.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsecond&absolutePagePath=%2FUsers%2Fgiraffeman%2Fworkspace%2Fweb%20development%2Fnext-react-app%2Fpages%2Fsecond.js!./");
 
 
 /***/ }),
@@ -2205,5 +2205,5 @@ module.exports = dll_e9ad7d891b372a4221cf;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=a.js.map
+},[[3,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=second.js.map

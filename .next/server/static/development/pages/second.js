@@ -88,15 +88,15 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./pages/a.js":
-/*!********************!*\
-  !*** ./pages/a.js ***!
-  \********************/
+/***/ "./pages/second.js":
+/*!*************************!*\
+  !*** ./pages/second.js ***!
+  \*************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -107,25 +107,29 @@ __webpack_require__.r(__webpack_exports__);
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-class APage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+class Second extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
-    return __jsx("h1", null, "A Page");
+    return __jsx("h1", null, "Second Page");
   }
 
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (APage);
+/* harmony default export */ __webpack_exports__["default"] = (Second);
 
 /***/ }),
 
-/***/ 3:
-/*!**************************!*\
-  !*** multi ./pages/a.js ***!
-  \**************************/
+/***/ 4:
+/*!*******************************!*\
+  !*** multi ./pages/second.js ***!
+  \*******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/giraffeman/workspace/web development/next-react-app/pages/a.js */"./pages/a.js");
+module.exports = __webpack_require__(/*! /Users/giraffeman/workspace/web development/next-react-app/pages/second.js */"./pages/second.js");
 
 
 /***/ }),
@@ -142,4 +146,4 @@ module.exports = require("react");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=a.js.map
+//# sourceMappingURL=second.js.map

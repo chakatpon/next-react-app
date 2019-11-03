@@ -17,14 +17,13 @@ app.prepare().then(() => {
     const { pathname, query } = parsedUrl
 
     if(pathname === '/') {
-      app.render(req, res, '/a', query)
-    } else if (pathname === '/a') {
-      app.render(req, res, '/b', query)
-      console.log("query from /a : ", query)
-    } else if (pathname === '/b') {
-      app.render(req, res, '/a', query)
-      console.log("query from /b : ", query)
+      app.render(req, res, '/home', query)
+    } else if (pathname === '/home') {
+      app.render(req, res, '/home', query)
+    } else if (pathname === '/second') {
+      app.render(req, res, '/second', query)
     } else {
+      app.render(req, res, "/404", query)
       handle(req, res, parsedUrl)
     }
   }).listen(3000, err => {

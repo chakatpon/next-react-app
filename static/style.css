@@ -1,3 +1,8 @@
 h1 {
     -webkit-text-fill-color: #00FF00;
 }
+
+div.layout {
+    padding-left: 40px;
+    padding-right: 40px;
+}
