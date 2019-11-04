@@ -129,7 +129,7 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/giraffeman/workspace/web development/next-react-app/pages/home.js */"./pages/home.js");
+module.exports = __webpack_require__(/*! /Users/giraffeman/Workspace/Web Development/next-react-app/pages/home.js */"./pages/home.js");
 
 
 /***/ }),

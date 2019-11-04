@@ -2099,9 +2099,9 @@ for (var i = 0; i < DOMIterables.length; i++) {
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fhome&absolutePagePath=%2FUsers%2Fgiraffeman%2Fworkspace%2Fweb%20development%2Fnext-react-app%2Fpages%2Fhome.js!./":
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fhome&absolutePagePath=%2FUsers%2Fgiraffeman%2FWorkspace%2FWeb%20Development%2Fnext-react-app%2Fpages%2Fhome.js!./":
 /*!*********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fhome&absolutePagePath=%2FUsers%2Fgiraffeman%2Fworkspace%2Fweb%20development%2Fnext-react-app%2Fpages%2Fhome.js ***!
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fhome&absolutePagePath=%2FUsers%2Fgiraffeman%2FWorkspace%2FWeb%20Development%2Fnext-react-app%2Fpages%2Fhome.js ***!
   \*********************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -2184,12 +2184,12 @@ function (_React$Component) {
 
 /***/ 2:
 /*!*************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fhome&absolutePagePath=%2FUsers%2Fgiraffeman%2Fworkspace%2Fweb%20development%2Fnext-react-app%2Fpages%2Fhome.js ***!
+  !*** multi next-client-pages-loader?page=%2Fhome&absolutePagePath=%2FUsers%2Fgiraffeman%2FWorkspace%2FWeb%20Development%2Fnext-react-app%2Fpages%2Fhome.js ***!
   \*************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fhome&absolutePagePath=%2FUsers%2Fgiraffeman%2Fworkspace%2Fweb%20development%2Fnext-react-app%2Fpages%2Fhome.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fhome&absolutePagePath=%2FUsers%2Fgiraffeman%2Fworkspace%2Fweb%20development%2Fnext-react-app%2Fpages%2Fhome.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fhome&absolutePagePath=%2FUsers%2Fgiraffeman%2FWorkspace%2FWeb%20Development%2Fnext-react-app%2Fpages%2Fhome.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fhome&absolutePagePath=%2FUsers%2Fgiraffeman%2FWorkspace%2FWeb%20Development%2Fnext-react-app%2Fpages%2Fhome.js!./");
 
 
 /***/ }),
