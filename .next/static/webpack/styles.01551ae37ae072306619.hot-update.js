@@ -30,7 +30,7 @@ module.exports = {"h1":"h1","h2":"h2","h3":"h3","h4":"h4","h5":"h5","h6":"h6","l
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1572838637196");
+            injectCss(link, link.href.split("?")[0] + "?unix=1572851263335");
           });
       }
     }
@@ -68,7 +68,7 @@ module.exports = {"layout":"layout"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1572838637202");
+            injectCss(link, link.href.split("?")[0] + "?unix=1572851263346");
           });
       }
     }
@@ -77,4 +77,4 @@ module.exports = {"layout":"layout"};;
 /***/ })
 
 })
-//# sourceMappingURL=styles.7982929a81969d22e67f.hot-update.js.map
+//# sourceMappingURL=styles.01551ae37ae072306619.hot-update.js.map

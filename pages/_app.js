@@ -1,6 +1,8 @@
 import React from 'react'
 import App from 'next/app'
-
+import withRedux from 'next-redux-wrapper'
+import { Provider } from 'react-redux'
+import { initStore } from '../src/libs/redux/store'
 import Layout from '../src/components/Layout'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -25,13 +27,18 @@ class MyApp extends App {
   render() {
     const { Component, pageProps } = this.props
     return (
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
-      
+      <Provider store={initStore()}>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </Provider>
     )
     
   }
 }
 
-export default MyApp
+const mapStateToProps = state => ({
+  lang: state.lang
+})
+
+export default withRedux(initStore, mapStateToProps)(MyApp)
