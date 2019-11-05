@@ -26,6 +26,7 @@ class MyApp extends App {
 
   render() {
     const { Component, pageProps } = this.props
+    console.log("this is page props : ", pageProps)
     return (
       <Provider store={initStore()}>
         <Layout>

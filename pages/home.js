@@ -10,15 +10,18 @@ class HomePage extends Component {
   }
 
   render() {
+      console.log("this home props : ", this.props)
     return (
       <>
-        <h1>Hello world home page</h1>
+        <h1>Server Side Rendering : <br/> Next.js Express and Redux </h1>
           <button
+            className="btn btn-primary"
             onClick={() => this.setLanguage('th')}
           >
               TH
           </button>
           <button
+            className="btn btn-primary"
             onClick={() => this.setLanguage('en')}
           >
             EN

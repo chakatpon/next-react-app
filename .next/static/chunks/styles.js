@@ -30,7 +30,7 @@ module.exports = {"h1":"h1","h2":"h2","h3":"h3","h4":"h4","h5":"h5","h6":"h6","l
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1572851263335");
+            injectCss(link, link.href.split("?")[0] + "?unix=1572928754825");
           });
       }
     }
@@ -68,7 +68,7 @@ module.exports = {"layout":"layout"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1572851263346");
+            injectCss(link, link.href.split("?")[0] + "?unix=1572928754864");
           });
       }
     }

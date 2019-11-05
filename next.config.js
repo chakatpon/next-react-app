@@ -27,6 +27,11 @@ module.exports = withCss(
         })
       );
       return config;
+    },
+    exportPathMap: function () {
+      return {
+        '/': { page: '/home' }
+      }
     }
   })
 );

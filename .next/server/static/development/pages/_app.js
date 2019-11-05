@@ -2190,6 +2190,7 @@ class MyApp extends next_app__WEBPACK_IMPORTED_MODULE_8___default.a {
       Component,
       pageProps
     } = this.props;
+    console.log("this is page props : ", pageProps);
     return __jsx(react_redux__WEBPACK_IMPORTED_MODULE_10__["Provider"], {
       store: Object(_src_libs_redux_store__WEBPACK_IMPORTED_MODULE_11__["initStore"])()
     }, __jsx(_src_components_Layout__WEBPACK_IMPORTED_MODULE_12__["default"], null, __jsx(Component, pageProps)));
